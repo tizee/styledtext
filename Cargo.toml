@@ -1,0 +1,22 @@
+[package]
+name = "styledtext"
+description = "A command line tool for convert ASCII text to other unicode-format"
+homepage = "https://github.com/tizee/styledtext"
+repository = "https://github.com/tizee/styledtext"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[lib]
+name = "styledtextlib"
+path = "src/lib.rs"
+crate-type = ["lib"]
+
+[[bin]]
+name = "styledtext"
+path = "src/bin.rs"
+
+[dependencies]
+clap = { version = "4.4.2", features = ["derive"] }
