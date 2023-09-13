@@ -34,3 +34,8 @@ Options:
 - [x] Convert ASCII text to styled text
 - [ ] Convert styled ASCII text to ASCII text
 - [ ] Convert text using random types and styles
+
+## How it works
+
+- Unicode Mathematical Alphanumeric Symbols. See [Wikipedia](https://en.wikipedia.org/wiki/Mathematical_Alphanumeric_Symbols).
+
